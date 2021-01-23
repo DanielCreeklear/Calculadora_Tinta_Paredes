@@ -31,7 +31,6 @@ def main():
                                                    resultado.calcular_litros_teto(),
                                                    resultado.calcular_litros_total(),
                                                    resultado.calcular_quantidade_latas()))
-    print('')
 
 while True:
     print('===============================\n'
