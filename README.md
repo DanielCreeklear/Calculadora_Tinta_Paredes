@@ -4,3 +4,4 @@ Projeto realizado com o objetivo de praticar Python + Git
 - main.py
 - Comodo.py
 - Calculadora.py
+- lata_tinta.py
