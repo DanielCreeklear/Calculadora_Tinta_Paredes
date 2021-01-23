@@ -7,6 +7,6 @@ class Comodo:
 
     def return_format(self):
         if self.Comprimento == self.Largura:
-            return 'Quadrado'
+            return 'quadrático'
         else:
-            return 'Retângulo'
+            return 'retangular'
