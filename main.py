@@ -43,7 +43,10 @@ while True:
           '* Por Favor, utilize o SI(Sistema Internacional '
           'de medidas!(Metros e Litros)')
 
-    main()
+    try:
+        main()
+    except ValueError as erro:
+        print('Ocorreu um erro. [', erro, ']')
 
     if not 'S' in str(input('Deseja recalcular? (S/N)\n')):
         break
